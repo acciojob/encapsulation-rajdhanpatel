@@ -7,8 +7,8 @@ public class Main {
 //      System.out.println(r.ans);
       //java: ans has private access in com.driver.RWOnly
 
-      r.setters(25);
-      int value = r.getter();
+      r.setName("amit");
+      String value = r.getName();
       System.out.println(value);
 
   }
